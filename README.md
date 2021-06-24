@@ -1,2 +1,2 @@
 # Robot-Arm-Manipulation-for-Accessibility
-Graduate research project. uArm Swift manipulation. Computer vision for object tracking. Message miniaturization. 
+University at Buffalo robotics research project. uArm Swift manipulation. Computer vision for object tracking. Message miniaturization. 
