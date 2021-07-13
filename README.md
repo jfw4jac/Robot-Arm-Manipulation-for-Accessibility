@@ -32,7 +32,7 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
+ex. asdf asd f 
 
 ## Acknowledgments
 
