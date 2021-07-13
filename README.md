@@ -1,14 +1,6 @@
 # Robot Arm Manipulation for Accessibility
 The goal of this project is to provide persons who lack fine muscle coordination or who may be missing appendages a more precise extension of their motion through the use of the uArm Swift robotic arm. The finer motion control is obtained through motion tracking of one of the subject's appendages and translating the information to the robot, such that it can perform the motion on a smaller scale. This is a University at Buffalo Robotics research project.
 
-# Project Title
-
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
 ## Getting Started
 
 ### Dependencies
@@ -41,19 +33,6 @@ command to run if program contains helper info
 Contributors names and contact info
 
 ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
