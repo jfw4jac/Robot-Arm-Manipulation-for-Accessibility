@@ -59,6 +59,17 @@ roslaunch swift_moveit_config demo.launch
 sudo chmod 666 /dev/ttyACM0
 ```
 
+* If you want to use the Android tablet capabilities do as follows. 
+  * Connect tablet through usb to computer. 
+  * Make sure device is connected with command below.
+```
+adb devices
+```
+  * Run command below to start table screen mirroring. Move mirror window to left side of desktop.
+```
+scrcpy
+```
+
 ## Help
 
 Any advise for common problems or issues.
