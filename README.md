@@ -75,7 +75,7 @@ source devel/setup.bash
   ```
 
 * If you do not want to screen mirror the android device ignore the previous sections associate with the android tablet. 
-  * Run the following command, which does not contain device mirroring
+  * Create a new terminal and run the following command/
   ```
   roslaunch swift_moveit_config camera_motion.launch
   ```
