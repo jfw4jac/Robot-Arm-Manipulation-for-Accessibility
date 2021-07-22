@@ -39,13 +39,25 @@ cd ~/catkin_ws/
 catkin_make
 source devel/setup.bash
 ```
+
+* Create a new terminal. Tip: Create a new terminal with the shortcut ctr + shift + t after the previous commands have been run.
+  * Run the following commands. The commands below enable control and motion planning of the robotic arm.
+```
+roslaunch swiftpro swift_control.launch
+roslaunch swift_moveit_config demo_no_rviz.launch
+```
+  * The previous command for *demo_no_rviz.launch* will not launch the 3D visualization tool RViz. An alternative command can be used in place of the *demo_no_rviz.launch* to launch RViz. 
+```
+roslaunch swiftpro swift_control.launch
+roslaunch swift_moveit_config demo.launch
+```
+
 * Make sure the webcam is connected to the computer system. 
   * Enable the webcam within the virtual environment. VirtualBox: Devices --> Webcams--> Select appropriate Webcam. See help section for solution of common issue with webcam passthrough for VirtualBox.
   * The following command gives permission the program permission to the webcam. This command will require the password to the linux machine.
 ```
 sudo chmod 666 /dev/ttyACM0
 ```
-* Open a new terminal. Tip: Opening a new terminal with the shortcut ctr + shift + t after permission have been provided to the original terminal will provide the new terminal all necessary permissions. 
 
 ## Help
 
