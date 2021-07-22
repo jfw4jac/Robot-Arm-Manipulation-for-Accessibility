@@ -40,7 +40,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   source devel/setup.bash
   ```
 
-* Create a new terminal. Tip: Create a new terminal with the shortcut ctr + shift + t after the previous commands have been run.
+* Create a new terminal. Tip: Create a new terminal with the shortcut ctrl + shift + t after the previous commands have been run.
   * Run the following commands. The commands below enable control and motion planning of the robotic arm.
   ```
   roslaunch swiftpro swift_control.launch
