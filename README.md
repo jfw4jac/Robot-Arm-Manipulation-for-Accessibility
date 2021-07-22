@@ -84,17 +84,9 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * [Enable webcam passthrough in VirtualBox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
-## Authors
-
-Contributors names and contact info
-
-ex. asdf asd f 
-
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [uArm-Developer/RosForSwiftAndSwiftPro](https://github.com/uArm-Developer/RosForSwiftAndSwiftPro)
+* [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
+* [Ball Tracking with OpenCV](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
