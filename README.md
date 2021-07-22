@@ -45,7 +45,7 @@ source devel/setup.bash
 ```
 sudo chmod 666 /dev/ttyACM0
 ```
-
+* Open a new terminal. Tip: Opening a new terminal with the shortcut ctr + shift + t after permission have been provided to the original terminal will provide the new terminal all necessary permissions. 
 
 ## Help
 
