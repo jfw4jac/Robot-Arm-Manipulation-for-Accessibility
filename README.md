@@ -3,9 +3,9 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 ## Getting Started
 
-### Dependencies
+### Dependencies (Versions listed at time of project completion)
 
-* Linux 18.04.5 LTS
+* Ubuntu 18.04.5 LTS
   * Virtual machine (Windows 10 Host Machine) - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Ubuntu Image](https://www.linuxvmimages.com/images/ubuntu-1804/)
 * Python 2.7.17
   * [Numpy](https://devdocs.io/numpy~1.16/) 1.16.6
@@ -13,7 +13,9 @@ The goal of this project is to provide persons who lack fine muscle coordination
   * [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) 0.9.52
 * [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu )
   * [Moveit](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html) Version:Melodic  
-
+* Android Screen Mirroring
+  * [Scrcpy](https://github.com/Genymobile/scrcpy) 1.17
+  * [Android Debug Bridge](https://developer.android.com/studio/command-line/adb) 1.0.39
 
 ### Installing
 
