@@ -61,13 +61,23 @@ sudo chmod 666 /dev/ttyACM0
 
 * If you want to use the Android tablet capabilities do as follows. 
   * Connect tablet through usb to computer. 
-  * Make sure device is connected with command below.
+  * Make sure device is connected with command below. Device will show up in terminal.
 ```
 adb devices
 ```
   * Run command below to start table screen mirroring. Snap mirror window to left half side of desktop.
 ```
 scrcpy
+```
+  * Create a new terminal and run the following command.
+```
+roslaunch swift_moveit_config camera_motion_device.launch
+```
+
+* If you do not want to screen mirror the android device ignore the previous sections associate with the android tablet. 
+  * Run the following command, which does not contain device mirroring
+```
+roslaunch swift_moveit_config camera_motion.launch
 ```
 
 ## Help
