@@ -65,7 +65,7 @@ sudo chmod 666 /dev/ttyACM0
 ```
 adb devices
 ```
-  * Run command below to start table screen mirroring. Move mirror window to left side of desktop.
+  * Run command below to start table screen mirroring. Snap mirror window to left half side of desktop.
 ```
 scrcpy
 ```
