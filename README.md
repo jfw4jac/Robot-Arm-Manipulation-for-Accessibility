@@ -6,7 +6,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 ### Dependencies
 
 * Linux 18.04.5 LTS
-  * asdf
+  * Virtual machine (Windows 10 Host Machine) - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Ubuntu Image](https://www.linuxvmimages.com/images/ubuntu-1804/ )
 
 ### Installing
 
@@ -27,6 +27,7 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
+* [Enable webcam passthrough in virtualbox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
 ## Authors
 
