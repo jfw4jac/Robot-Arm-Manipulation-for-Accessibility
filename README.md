@@ -10,7 +10,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 * Once the Linux environment is properly install also install [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu )
   * MoveIt (Robot motion planning framework) - [Moveit Version:Melodic](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html) 
   ```
-code blocks for commands
+sudo apt install ros-melodic-moveit
   ```
 
 ### Installing
