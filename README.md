@@ -86,7 +86,6 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
 * [uArm-Developer/RosForSwiftAndSwiftPro](https://github.com/uArm-Developer/RosForSwiftAndSwiftPro)
 * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
 * [Ball Tracking with OpenCV](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
