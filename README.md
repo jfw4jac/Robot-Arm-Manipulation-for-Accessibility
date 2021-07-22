@@ -34,11 +34,11 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * Open up a terminal.
 * Make sure the ROS environment is properly set up.
-```
-cd ~/catkin_ws/
-catkin_make
-source devel/setup.bash
-```
+  ```
+  cd ~/catkin_ws/
+  catkin_make
+  source devel/setup.bash
+  ```
 
 * Create a new terminal. Tip: Create a new terminal with the shortcut ctr + shift + t after the previous commands have been run.
   * Run the following commands. The commands below enable control and motion planning of the robotic arm.
