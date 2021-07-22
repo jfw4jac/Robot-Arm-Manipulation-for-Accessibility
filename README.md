@@ -28,12 +28,20 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 ### Executing program
 
+* Open up a terminal.
 * Make sure the ROS environment is properly set up.
 ```
 cd ~/catkin_ws/
 catkin_make
 source devel/setup.bash
 ```
+* Make sure the webcam is connected to the computer system. 
+  * Enable the webcam within the virtual environment. VirtualBox: Devices --> Webcams--> Select appropriate Webcam. See help section for solution of common issue with webcam passthrough for VirtualBox.
+  * The following command gives permission the program permission to the webcam. This command will require the password to the linux machine.
+```
+sudo chmod 666 /dev/ttyACM0
+```
+
 
 ## Help
 
@@ -41,7 +49,7 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
-* [Enable webcam passthrough in virtualbox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
+* [Enable webcam passthrough in VirtualBox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
 ## Authors
 
