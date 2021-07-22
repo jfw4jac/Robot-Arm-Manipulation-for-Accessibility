@@ -84,7 +84,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * [Enable webcam passthrough in VirtualBox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
-* For troubleshooting the following commands can be used to gain further insight. The last two roslaunch commands in the previous section are variations of the commmands down below. The *camera_motion_device.launch* roslaunch command cprresponds to the three commands below and the *camera_motion.launch* roslaunch command corresponds to the top two commands below.
+* For troubleshooting the following commands can be used to gain further insight. The last two roslaunch commands in the previous section are variations of the commmands down below. The *camera_motion_device.launch* command corresponds to the three commands below and the *camera_motion.launch* command corresponds to the top two commands below.
   ```
   rosrun swift_moveit_config tracking.py
   rosrun swift_moveit_config moving.py
