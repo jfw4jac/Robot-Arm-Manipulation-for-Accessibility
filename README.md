@@ -28,10 +28,11 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Make sure the ROS environment is properly set up.
 ```
-code blocks for commands
+cd ~/catkin_ws/
+catkin_make
+source devel/setup.bash
 ```
 
 ## Help
