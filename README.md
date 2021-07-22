@@ -7,6 +7,10 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * Linux 18.04.5 LTS
   * Virtual machine (Windows 10 Host Machine) - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Ubuntu Image](https://www.linuxvmimages.com/images/ubuntu-1804/)
+* Python 2.7.17
+  * [Numpy](https://devdocs.io/numpy~1.16/) 1.16.6
+  * [OpenCV](https://docs.opencv.org/4.2.0/) 4.2.0.32
+  * [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) 0.9.52
 * [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu )
   * MoveIt (Robot motion planning framework) - [Moveit Version:Melodic](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html) 
 
