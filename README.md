@@ -12,7 +12,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   * [OpenCV](https://docs.opencv.org/4.2.0/) 4.2.0.32
   * [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) 0.9.52
 * [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu )
-  * MoveIt (Robot motion planning framework) - [Moveit Version:Melodic](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html) 
+  * [Moveit](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html) Version:Melodic  
 
 
 ### Installing
