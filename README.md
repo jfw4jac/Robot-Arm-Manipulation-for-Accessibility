@@ -24,9 +24,9 @@ The goal of this project is to provide persons who lack fine muscle coordination
 ### Installing
 
 * Once all the dependencies are properly set up download the swift_moveit_config files folder.
-  * Within the folder there are three subfolders: *into_config*, *into_launch*, and *scripts*
-  * Move the contents within the *into_config* subfolder into the SwiftAndProForROS swift_moveit_config/config
-  * Move the contents within the *into_launch* subfolder into the SwiftAndProForROS swift_moveit_config/launch
+  * Within the folder there are three subfolders: ***into_config***, ***into_launch***, and ***scripts***
+  * Move the contents within the ***into_config*** subfolder into the SwiftAndProForROS swift_moveit_config/config
+  * Move the contents within the ***into_launch*** subfolder into the SwiftAndProForROS swift_moveit_config/launch
   * Move the *scripts* subfolder into the SwiftAndProForROS swift_moveit_config
 * Note that some of the files within the subfolder will **OVERWRITE** files with the SwiftAndProForROS package. Makes copies of any files that will be overwritten.
 
@@ -40,7 +40,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   source devel/setup.bash
   ```
 
-* Create a new terminal. Tip: Create a new terminal with the shortcut **ctrl + shift + T** after the previous commands have been run.
+* Create a new terminal. Tip: Create a new terminal with the shortcut ***ctrl + shift + T*** after the previous commands have been run.
   * Run the following commands. The commands below enable control and motion planning of the robotic arm.
   ```
   roslaunch swiftpro swift_control.launch
