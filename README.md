@@ -3,7 +3,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 ## Getting Started
 
-### Dependencies (Versions listed at time of project completion)
+### Dependencies (Versions recorded at time of project completion)
 
 * Ubuntu 18.04.5
   * Virtual machine (Windows 10 Host Machine) - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Ubuntu Image](https://www.linuxvmimages.com/images/ubuntu-1804/)
