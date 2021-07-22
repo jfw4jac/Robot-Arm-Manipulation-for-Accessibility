@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="tracking_node" pkg="swift_moveit_config" type="tracking.py" output="screen"/>
+
+  <node name="moving_node" pkg="swift_moveit_config" type="moving.py" output="screen"/>
+
+</launch>
