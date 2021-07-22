@@ -5,8 +5,8 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Linux 18.04.5 LTS
+* * asdf
 
 ### Installing
 
