@@ -53,19 +53,19 @@ The goal of this project is to provide persons who lack fine muscle coordination
   ```
 
 * Make sure the webcam is connected to the computer system. 
-  * Enable the webcam within the virtual environment. VirtualBox: Devices --> Webcams--> Select appropriate Webcam. See help section for solution of common issue with webcam passthrough for VirtualBox.
-  * The following command gives permission the program permission to the webcam. This command will require the password to the linux machine.
+  * Enable the webcam within the virtual environment. VirtualBox: Devices --> Webcams--> Select appropriate Webcam. See the help section for the solution of a common issue with webcam passthrough for VirtualBox.
+  * The following command gives permission the program permission to the webcam. This command will require the password to the Linux machine.
   ```
   sudo chmod 666 /dev/ttyACM0
   ```
 
 * If you want to use the Android tablet capabilities do as follows. 
-  * Connect tablet through usb to computer. 
-  * Make sure device is connected with command below. Device will show up in terminal.
+  * Connect tablet through USB to the computer. 
+  * Make sure the device is connected with the command below. The device will show up in the terminal.
   ```
   adb devices
   ```
-  * Run command below to start table screen mirroring. Snap mirror window to left half side of desktop.
+  * Run the command below to start table screen mirroring. Snap mirror window to the left half side of the desktop.
   ```
   scrcpy
   ```
@@ -74,7 +74,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   roslaunch swift_moveit_config camera_motion_device.launch
   ```
 
-* If you do not want to screen mirror the android device ignore the previous sections associate with the android tablet. 
+* If you do not want to screen mirror the android device, ignore the previous sections associate with the android tablet. 
   * Create a new terminal and run the following command/
   ```
   roslaunch swift_moveit_config camera_motion.launch
@@ -84,7 +84,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * [Enable webcam passthrough in VirtualBox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
-* For troubleshooting the following commands can be used to gain further insight. The last two roslaunch commands in the previous section are variations of the commmands down below. The *camera_motion_device.launch* command corresponds to the three commands below and the *camera_motion.launch* command corresponds to the top two commands below.
+* For troubleshooting the following commands can be used to gain further insight. The last two roslaunch commands in the previous section are variations of the commands down below. The *camera_motion_device.launch* command corresponds to the three commands below and the *camera_motion.launch* command corresponds to the top two commands below.
   ```
   rosrun swift_moveit_config tracking.py
   rosrun swift_moveit_config moving.py
@@ -96,3 +96,4 @@ The goal of this project is to provide persons who lack fine muscle coordination
 * [uArm-Developer/RosForSwiftAndSwiftPro](https://github.com/uArm-Developer/RosForSwiftAndSwiftPro)
 * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
 * [Ball Tracking with OpenCV](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
+
