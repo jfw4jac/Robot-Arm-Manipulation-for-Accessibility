@@ -6,7 +6,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 ### Dependencies
 
 * Linux 18.04.5 LTS
-* * asdf
+  * asdf
 
 ### Installing
 
