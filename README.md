@@ -42,22 +42,22 @@ source devel/setup.bash
 
 * Create a new terminal. Tip: Create a new terminal with the shortcut ctr + shift + t after the previous commands have been run.
   * Run the following commands. The commands below enable control and motion planning of the robotic arm.
-```
-roslaunch swiftpro swift_control.launch
-roslaunch swift_moveit_config demo_no_rviz.launch
-```
+  ```
+  roslaunch swiftpro swift_control.launch
+  roslaunch swift_moveit_config demo_no_rviz.launch
+  ```
   * The previous command for *demo_no_rviz.launch* will not launch the 3D visualization tool RViz. An alternative command can be used in place of the *demo_no_rviz.launch* to launch RViz. 
-```
-roslaunch swiftpro swift_control.launch
-roslaunch swift_moveit_config demo.launch
-```
+  ```
+  roslaunch swiftpro swift_control.launch
+  roslaunch swift_moveit_config demo.launch
+  ```
 
 * Make sure the webcam is connected to the computer system. 
   * Enable the webcam within the virtual environment. VirtualBox: Devices --> Webcams--> Select appropriate Webcam. See help section for solution of common issue with webcam passthrough for VirtualBox.
   * The following command gives permission the program permission to the webcam. This command will require the password to the linux machine.
-```
-sudo chmod 666 /dev/ttyACM0
-```
+  ```
+  sudo chmod 666 /dev/ttyACM0
+  ```
 
 * If you want to use the Android tablet capabilities do as follows. 
   * Connect tablet through usb to computer. 
@@ -76,9 +76,9 @@ sudo chmod 666 /dev/ttyACM0
 
 * If you do not want to screen mirror the android device ignore the previous sections associate with the android tablet. 
   * Run the following command, which does not contain device mirroring
-```
-roslaunch swift_moveit_config camera_motion.launch
-```
+  ```
+  roslaunch swift_moveit_config camera_motion.launch
+  ```
 
 ## Help
 
