@@ -27,7 +27,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   * Within the folder there are three subfolders: ***into_config***, ***into_launch***, and ***scripts***
   * Move the contents within the ***into_config*** subfolder into the SwiftAndProForROS swift_moveit_config/config
   * Move the contents within the ***into_launch*** subfolder into the SwiftAndProForROS swift_moveit_config/launch
-  * Move the *scripts* subfolder into the SwiftAndProForROS swift_moveit_config
+  * Move the ***scripts*** subfolder into the SwiftAndProForROS swift_moveit_config
 * Note that some of the files within the subfolder will **OVERWRITE** files with the SwiftAndProForROS package. Makes copies of any files that will be overwritten.
 
 ### Executing program
