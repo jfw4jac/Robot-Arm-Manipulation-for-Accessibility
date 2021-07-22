@@ -7,8 +7,11 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * Linux 18.04.5 LTS
   * Virtual machine (Windows 10 Host Machine) - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Ubuntu Image](https://www.linuxvmimages.com/images/ubuntu-1804/)
-* [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu )
-  * MoveIt (Robot motion planning framework) - [Moveit Version:Melodic](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html)
+* Once the Linux environment is properly install also install [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu )
+  * MoveIt (Robot motion planning framework) - [Moveit Version:Melodic](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html) 
+  ```
+code blocks for commands
+  ```
 
 ### Installing
 
