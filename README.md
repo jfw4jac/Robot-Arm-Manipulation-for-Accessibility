@@ -20,10 +20,10 @@ The goal of this project is to provide persons who lack fine muscle coordination
 ### Installing
 
 * Once all the dependencies are properly set up download the swift_moveit_config files folder.
-  * Within the folder there are three subfolders: into_config, into_launch, and scripts
-  * Move the contents within the into_config folder into the SwiftAndProForROS swift_moveit_config/config
-  * Move the contents within the into_launch folder into the SwiftAndProForROS swift_moveit_config/launch
-  * Move the scripts subfolder into the SwiftAndProForROS swift_moveit_config
+  * Within the folder there are three subfolders: *into_config*, *into_launch*, and *scripts*
+  * Move the contents within the *into_config* subfolder into the SwiftAndProForROS swift_moveit_config/config
+  * Move the contents within the *into_launch* subfolder into the SwiftAndProForROS swift_moveit_config/launch
+  * Move the *scripts* subfolder into the SwiftAndProForROS swift_moveit_config
 
 ### Executing program
 
