@@ -82,10 +82,6 @@ roslaunch swift_moveit_config camera_motion.launch
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 * [Enable webcam passthrough in VirtualBox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
 ## Authors
