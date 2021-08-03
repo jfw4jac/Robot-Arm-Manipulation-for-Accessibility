@@ -23,12 +23,12 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 ### Installing
 
-* Once all the dependencies are properly set up download the swift_moveit_config files folder.
+* Once all the dependencies are properly set up, download the swift_moveit_config files folder.
   * Within the folder there are three subfolders: ***into_config***, ***into_launch***, and ***scripts***
-  * Move the contents within the ***into_config*** subfolder into the SwiftAndProForROS swift_moveit_config/config
-  * Move the contents within the ***into_launch*** subfolder into the SwiftAndProForROS swift_moveit_config/launch
-  * Move the ***scripts*** subfolder into the SwiftAndProForROS swift_moveit_config
-* Note that some of the files within the subfolder will **OVERWRITE** files with the SwiftAndProForROS package. Makes copies of any files that will be overwritten.
+  * Move the contents within the ***into_config*** subfolder into the SwiftAndProForROS package directory swift_moveit_config/config
+  * Move the contents within the ***into_launch*** subfolder into the SwiftAndProForROS package directory swift_moveit_config/launch
+  * Move the ***scripts*** subfolder into the SwiftAndProForROS package directory swift_moveit_config
+* Note that some of the files within the subfolder will **OVERWRITE** files within the SwiftAndProForROS package. Makes copies of any files that will be overwritten.
 
 ### Executing program
 
@@ -46,7 +46,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   roslaunch swiftpro swift_control.launch
   roslaunch swift_moveit_config demo_no_rviz.launch
   ```
-  * The previous command for *demo_no_rviz.launch* will not launch the 3D visualization tool RViz. An alternative command can be used in place of the *demo_no_rviz.launch* to launch RViz. 
+  * The previous command containing *demo_no_rviz.launch* will not launch the 3D visualization tool RViz. An alternative command can be used in place of the *demo_no_rviz.launch* command to launch RViz. 
   ```
   roslaunch swiftpro swift_control.launch
   roslaunch swift_moveit_config demo.launch
@@ -54,18 +54,18 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * Make sure the webcam is connected to the computer system. 
   * Enable the webcam within the virtual environment. VirtualBox: Devices --> Webcams--> Select appropriate Webcam. See the help section for the solution of a common issue with webcam passthrough for VirtualBox.
-  * The following command gives permission the program permission to the webcam. This command will require the password to the Linux machine.
+  * The following command gives the program permission to access the webcam. This command will require the password of the Linux machine.
   ```
   sudo chmod 666 /dev/ttyACM0
   ```
 
-* If you want to use the Android tablet capabilities do as follows. 
+* If you want to use the Android tablet capabilities, do as follows. 
   * Connect tablet through USB to the computer. 
   * Make sure the device is connected with the command below. The device will show up in the terminal.
   ```
   adb devices
   ```
-  * Run the command below to start table screen mirroring. Snap mirror window to the left half side of the desktop.
+  * Run the command below to start tablet screen mirroring. Snap mirror window to the left half side of the desktop.
   ```
   scrcpy
   ```
@@ -84,7 +84,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * [Enable webcam passthrough in VirtualBox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
-* For troubleshooting the following commands can be used to gain further insight. The last two roslaunch commands in the previous section are variations of the commands down below. The *camera_motion_device.launch* command corresponds to the three commands below and the *camera_motion.launch* command corresponds to the top two commands below.
+* For troubleshooting the following commands can be used. The last two roslaunch commands in the previous section run combinations of the commands down below. The *camera_motion_device.launch* command corresponds to all three commands below and the *camera_motion.launch* command corresponds to the top two commands.
   ```
   rosrun swift_moveit_config tracking.py
   rosrun swift_moveit_config moving.py
@@ -96,4 +96,3 @@ The goal of this project is to provide persons who lack fine muscle coordination
 * [uArm-Developer/RosForSwiftAndSwiftPro](https://github.com/uArm-Developer/RosForSwiftAndSwiftPro)
 * [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
 * [Ball Tracking with OpenCV](https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/)
-
