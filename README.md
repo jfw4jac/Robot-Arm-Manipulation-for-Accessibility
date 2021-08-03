@@ -17,9 +17,9 @@ The goal of this project is to provide persons who lack fine muscle coordination
   * [SwiftAndProForROS](https://github.com/uArm-Developer/RosForSwiftAndSwiftPro)
   * [Moveit Melodic](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/getting_started/getting_started.html) 1.0.7
   
-* [Scrcpy](https://github.com/Genymobile/scrcpy) 1.17
+* [Scrcpy](https://github.com/Genymobile/scrcpy) 1.17  (OPTIONAL)
 
-* [Android Debug Bridge](https://developer.android.com/studio/command-line/adb) 1.0.39
+* [Android Debug Bridge](https://developer.android.com/studio/command-line/adb) 1.0.39  (OPTIONAL)
 
 ### Installing
 
