@@ -75,7 +75,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   ```
 
 * If you do not want to screen mirror the android device, ignore the previous sections associate with the android tablet. 
-  * Create a new terminal and run the following command/
+  * Create a new terminal and run the following command.
   ```
   roslaunch swift_moveit_config camera_motion.launch
   ```
