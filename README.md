@@ -1,5 +1,5 @@
 # Robot Arm Manipulation for Accessibility
-The goal of this project is to provide persons who lack fine muscle coordination or who may be missing appendages a more precise extension of their motion through the use of the uArm Swift robotic arm. The finer motion control is obtained through motion tracking of one of the subject's appendages and translating the information to the robot, such that it can perform the motion on a smaller scale. This is a University at Buffalo Robotics research project.
+The goal of this project is to provide people who lack fine muscle coordination or missing appendages a more precise extension of their motion through the use of the uArm Swift robotic arm. The finer motion control is obtained through motion tracking of one of the subject's appendages and translating the information to the robot, such that it can perform the motion on a smaller scale. This is a University at Buffalo Robotics research project.
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   * Move the contents within the ***into_config*** subfolder into the SwiftAndProForROS package directory ***swift_moveit_config/config***
   * Move the contents within the ***into_launch*** subfolder into the SwiftAndProForROS package directory ***swift_moveit_config/launch***
   * Move the ***scripts*** subfolder into the SwiftAndProForROS package directory ***swift_moveit_config***
-* Note that some of the files within the subfolder will **OVERWRITE** files within the SwiftAndProForROS package. Makes copies of any files that will be overwritten.
+* Note that some of the files within the subfolder will **OVERWRITE** files within the SwiftAndProForROS package. Make copies of any files that will be overwritten.
 
 ### Executing program
 
@@ -40,7 +40,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   source devel/setup.bash
   ```
 
-* Create a new terminal. Tip: Create a new terminal with the shortcut ***ctrl + shift + T*** after the previous commands have been run.
+* Create a new terminal. Tip: Create a new terminal with the shortcut ***ctrl + shift + T*** after the previous commands have run.
   * Run the following commands. The commands below enable control and motion planning of the robotic arm.
   ```
   roslaunch swiftpro swift_control.launch
@@ -65,7 +65,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
   ```
   adb devices
   ```
-  * Run the command below to start tablet screen mirroring. Snap mirror window to the left half side of the desktop.
+  * Run the command below to start tablet screen mirroring, then snap the mirror window to the left half side of the desktop.
   ```
   scrcpy
   ```
@@ -84,7 +84,7 @@ The goal of this project is to provide persons who lack fine muscle coordination
 
 * [Enable webcam passthrough in VirtualBox](https://scribles.net/using-webcam-in-virtualbox-guest-os-on-windows-host/)
 
-* For troubleshooting the following commands can be used. The last two roslaunch commands in the previous section run combinations of the commands down below. The *camera_motion_device.launch* command corresponds to all three commands below and the *camera_motion.launch* command corresponds to the top two commands.
+* For troubleshooting the following commands can be used. The last two roslaunch commands in the previous section run combinations of the commands down below. The *camera_motion_device.launch* command corresponds to all three commands below. The *camera_motion.launch* command corresponds to the top two commands.
   ```
   rosrun swift_moveit_config tracking.py
   rosrun swift_moveit_config moving.py
